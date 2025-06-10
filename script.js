@@ -108,11 +108,11 @@ document.getElementById("next").addEventListener("click", () => {
 function showResult() {
   let resultText;
   if (approval > disapproval) {
-    resultText = "Solas approves of you. You walk the path of wisdom and empathy.";
+    resultText = `"You have walked the fragile path of wisdom, embracing the weight of truth and the burden of empathy. Know this — your choices ripple through the Veil, shaping a future unseen. Walk carefully, for even light casts shadows."`;
   } else if (disapproval > approval) {
-    resultText = "Solas disapproves of your choices. You are not who he hoped you'd be.";
+    resultText = `"Your steps have echoed with folly and pride, blind to the threads that bind us all. I had hoped for more — but the darkness you choose to embrace will not go unnoticed. Beware, for such roads lead to ruin and regret."`;
   } else {
-    resultText = "Solas remains uncertain about you. Time will tell your true path.";
+    resultText = `"You stand balanced on the edge of destiny, neither condemned nor blessed. Time will unravel the truth hidden within your soul. Until then, tread lightly... for fate watches with patient eyes."`;
   }
 
   document.getElementById("question").textContent = "";
@@ -121,6 +121,7 @@ function showResult() {
   document.getElementById("next").style.display = "none";
   document.getElementById("result").textContent = resultText;
 }
+
 
 // Start the quiz on page load
 showQuestion();
