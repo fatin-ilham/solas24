@@ -1,0 +1,75 @@
+body {
+  font-family: 'Cinzel', serif;
+  background: url('https://i.imgur.com/B2jQZLf.jpg') no-repeat center center fixed; /* Replace with a parchment or DA-style bg */
+  background-size: cover;
+  color: #f5f5dc;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  background: rgba(30, 30, 30, 0.85);
+  padding: 2rem;
+  border-radius: 10px;
+  margin-top: 4rem;
+  box-shadow: 0 0 20px rgba(0,0,0,0.8);
+}
+
+h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  color: #e0c097;
+  text-shadow: 2px 2px 4px #000;
+}
+
+#question {
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}
+
+#choices button {
+  display: block;
+  margin: 0.5rem 0;
+  padding: 0.75rem 1.5rem;
+  background-color: #4b3b2a;
+  color: #fff5e6;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#choices button:hover {
+  background-color: #7a5c43;
+}
+
+#reaction {
+  margin-top: 1rem;
+  font-style: italic;
+  color: #bfa984;
+  min-height: 2rem;
+}
+
+#next {
+  margin-top: 1.5rem;
+  padding: 0.75rem 1.2rem;
+  background-color: #766249;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+#result {
+  margin-top: 2rem;
+  font-size: 1.2rem;
+  color: #e6dab4;
+  text-align: center;
+}
