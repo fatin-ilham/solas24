@@ -1,6 +1,6 @@
 body {
   font-family: 'Cinzel', serif;
-  background: url('https://i.imgur.com/B2jQZLf.jpg') no-repeat center center fixed; /* Replace with a parchment or DA-style bg */
+  background: url('https://i.imgur.com/B2jQZLf.jpg') no-repeat center center fixed;
   background-size: cover;
   color: #f5f5dc;
   margin: 0;
@@ -10,11 +10,10 @@ body {
 
 .container {
   max-width: 800px;
-  margin: 0 auto;
+  margin: 4rem auto;
   background: rgba(30, 30, 30, 0.85);
   padding: 2rem;
   border-radius: 10px;
-  margin-top: 4rem;
   box-shadow: 0 0 20px rgba(0,0,0,0.8);
 }
 
